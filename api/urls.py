@@ -8,5 +8,4 @@ router.register('student/add', views.StudentViewSet, basename='student')
 router.register('teacher/add', views.TeacherViewSet, basename='teacher')
 urlpatterns = [
     path('', include(router.urls)),
-    path('', include(router.urls)),
 ]
